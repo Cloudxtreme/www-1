@@ -1,0 +1,39 @@
+extends _partials/layout
+
+block content
+  include _partials/header
+  
+  div(class="home-page")
+  
+    h1 A BETTER WORLD FOR STATIC WEBSITES
+    h5 Production-grade hosting, a developer toolkit, and a beautiful CMS. All in one.
+    h5 Limit your hassle, not your vision.
+
+    div(class="actions")
+      a(href="#", class="btn") GET STARTED
+      a(href="#tell-me-more", class="btn-sml btn-white") TELL ME MORE
+    
+    div(class="video")
+      div(id="play-video", class="play")
+      iframe(id="video", src="https://player.vimeo.com/video/1084537?color=E45D35&title=0&badge=0&portrait=0&byline=0&title=0&api=1", width="800", height="450", frameborder="0", webkitallowfullscreen mozallowfullscreen allowfullscreen)
+      
+    section(class="white")
+      a(name="tell-me-more")
+      h2 A BEAUTIFUL CMS
+      p Content management systems should be simple, easy on the eyes, and fast. Not a bloated blogging engine jimmy-rigged to be a CMS. Zab was built from the ground up to be a CMS, blogger, form manager, and simple analytics platform. All in one clean dashboard.
+
+    section(class="dark")
+      h2 PRODUCTION-GRADE HOSTING
+      p Stop worrying about maintaining a complex server setup to host your marketing site or blog. Hosting in the cloud should be easy, and with Zab's production-grade hosting, it is. Your site will be lightning fast and highly available behind a global CDN. Traffic spikes and down time are a thing of the past.
+
+    section(class="white")
+      h2 A DEVELOPER TOOLKIT
+      p We know the painpoints of developing static websites - it has been our thing for a long time. Static sites are simple, so the development process should be simple too. Use our open-source CLI to develop, test, and deploy your site. It's that easy.
+
+    section(class="dark")
+      h1 GET STARTED FOR FREE.
+      div(class="actions footer")
+        a(href="#", class="btn") SIGN UP
+        a(href="/pricing.html", class="btn-sml btn-white") SEE PLANS
+
+    include _partials/footer

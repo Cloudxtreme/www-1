@@ -1,0 +1,70 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css')
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css')
+
+@import '_colors'
+@import '_typeography'
+@import '_buttons'
+@import '_inputs'
+@import '_links'
+@import '_header'
+@import '_footer'
+@import '_home'
+
+*
+  margin 0
+  padding 0
+  box-sizing border-box
+
+html
+  height 100%
+
+body
+  background-image:
+    url('/img/bg.png'),
+    linear-gradient(bgLight, bgDark)
+  background-repeat no-repeat
+  background-size cover
+  background-position top center
+  background-color bgDark
+  min-height 100%
+  font-family 'Lato', sans-serif
+  font-weight 300
+  font-size 1.1em
+  line-height normal
+
+section
+  padding 200px 150px
+  &.dark
+    background url('/img/bg.png') no-repeat
+    background-size cover
+    background-position top center
+  &.white
+    background white
+    position relative
+    // margin 150px 0
+    p
+      color bgDark
+    // &:before
+    //   content ''
+    //   background white
+    //   position absolute
+    //   top -100%
+    //   bottom -100%
+    //   left 0
+    //   right 0
+    //   z-index -1
+    //   transform skewY(-4deg)
+    //   transform-origin bottom left
+    //   backface-visibility hidden
+    // &:after
+    //   content ''
+    //   background white
+    //   position absolute
+    //   top -100%
+    //   bottom -100%
+    //   left 0
+    //   right 0
+    //   z-index -1
+    //   transform skewY(4deg)
+    //   transform-origin bottom left
+    //   backface-visibility hidden

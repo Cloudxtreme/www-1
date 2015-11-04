@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="118px" height="118px" viewBox="0 0 118 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 13 + Triangle 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-661.000000, -819.000000)">
+            <g id="Oval-13-+-Triangle-1" sketch:type="MSLayerGroup" transform="translate(663.000000, 821.000000)">
+                <circle id="Oval-13" stroke="#E45D35" stroke-width="3" sketch:type="MSShapeGroup" cx="57" cy="57" r="57"></circle>
+                <path d="M42.1948052,76.4678698 L42.1948052,37.012987 L84.3896104,56.7404284 L42.1948052,76.4678698 Z" id="Triangle-1" fill="#E45D35" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
