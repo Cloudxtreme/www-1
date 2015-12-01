@@ -1,6 +1,8 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css')
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css')
+@import url('https://i.icomoon.io/public/temp/36b03050a7/zab-www/style.css')
 
+@import '_vars'
 @import '_colors'
 @import '_typeography'
 @import '_buttons'
@@ -9,6 +11,7 @@
 @import '_header'
 @import '_footer'
 @import '_home'
+@import '_pricing'
 
 *
   margin 0
@@ -33,38 +36,59 @@ body
   line-height normal
 
 section
-  padding 200px 150px
+  padding 230px 0
+  position relative
+  text-align center
+
+  &.col-2
+    display flex
+    justify-content space-between
+    align-items center
+    .block
+      display inline-block
+      text-align left
+      overflow hidden
+      &:first-child
+        margin-left 150px
+      &:last-child
+        padding-right 100px
+        img
+          position relative
+          right -200px
+          max-width 600px
+      img
+        width 100%
   &.dark
     background url('/img/bg.png') no-repeat
     background-size cover
-    background-position top center
+    background-position bottom center
   &.white
     background white
     position relative
-    // margin 150px 0
+    padding 150px 0
     p
       color bgDark
-    // &:before
-    //   content ''
-    //   background white
-    //   position absolute
-    //   top -100%
-    //   bottom -100%
-    //   left 0
-    //   right 0
-    //   z-index -1
-    //   transform skewY(-4deg)
-    //   transform-origin bottom left
-    //   backface-visibility hidden
-    // &:after
-    //   content ''
-    //   background white
-    //   position absolute
-    //   top -100%
-    //   bottom -100%
-    //   left 0
-    //   right 0
-    //   z-index -1
-    //   transform skewY(4deg)
-    //   transform-origin bottom left
-    //   backface-visibility hidden
+    &:before
+      content ''
+      background white
+      position absolute
+      top 0
+      bottom 0
+      left 0
+      right 0
+      z-index -1
+      transform skewY(-4deg)
+      transform-origin bottom left
+      backface-visibility hidden
+    &:after
+      content ''
+      background white
+      position absolute
+      top 0
+      bottom 0
+      left 0
+      right 0
+      z-index -1
+      transform skewY(4deg)
+      transform-origin top left
+      backface-visibility hidden

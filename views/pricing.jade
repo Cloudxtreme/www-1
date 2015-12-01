@@ -2,3 +2,45 @@ extends _partials/layout
 
 block content
   include _partials/header
+
+  div.pricing-page
+    h1 PRICING THAT WORKS FOR YOU
+    h5 No strings attached, no hidden fees.
+    
+    div(class="price-blocks")
+      div(class="price-block") Free
+      div(class="price-block popular") $19
+        span PER MONTH
+      div(class="price-block") $199
+      
+    table(class="feature-list")
+      tr
+        th Unlimited Websites
+        td.yes
+        td.yes
+        td.yes
+      tr
+        th Production-grade Hosting
+        td.yes
+        td.yes
+        td.yes
+      tr
+        th Developer Tools
+        td.yes
+        td.yes
+        td.yes
+      tr
+        th Content Management System
+        td.no
+        td.yes
+        td.yes
+      tr
+        th Custom Analytics
+        td.no
+        td.no
+        td.yes
+      tr
+        th Premium Support
+        td.no
+        td.no
+        td.yes

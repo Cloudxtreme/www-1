@@ -9,6 +9,8 @@
 
   .video
     background black
+    // box-shadow 0 0 10px rgba(40, 51, 62, .3)
+    border-radius 4px
     width 800px
     height 450px
     position absolute
@@ -16,6 +18,7 @@
     left 50%
     margin-left -400px
     cursor pointer
+    overflow hidden
     &:hover
       .play
         opacity 0.6
@@ -32,5 +35,11 @@
       display none
 
   section:first-of-type
-    margin-top 250px
-    padding-top 400px
+    margin-top 280px
+    padding-top 170px
+
+  .hosting-img
+    max-width 350px
+  .dev-toolkit
+    img
+      position absolute

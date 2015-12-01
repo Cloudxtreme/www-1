@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="455px" height="353px" viewBox="0 0 455 353" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>Group + Group Copy + Path 37 + Path 37</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M336.979563,3.9182046 C290.490751,8.46768965 62.7121103,12.913808 6.72802225,0.977362064 C-2.36724606,-0.961852857 1.00199178,221.899793 1.74937222,219.588365 C11.5237941,189.358956 36.9704224,163.275688 102.905212,189.717897 C136.461593,98.2657478 217.174256,147.894618 224.689972,189.717898 C256.805275,183.598688 293.004691,198.447807 297.127361,234.583929 C313.761348,229.239494 328.659116,230.10279 340.797559,235.02179 C343.958086,236.302567 344.719739,3.16073601 336.979563,3.9182046 Z"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-148.000000, -2116.000000)">
+            <g id="Group-+-Group-Copy-+-Path-37-+-Path-37" sketch:type="MSLayerGroup" transform="translate(150.000000, 2083.000000)">
+                <g id="Group-+-Group-Copy-+-Path-37" transform="translate(52.000000, 0.000000)">
+                    <g id="Group-+-Group-Copy-Mask">
+                        <mask id="mask-2" sketch:name="Mask" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                        <g id="Group" mask="url(#mask-2)" sketch:type="MSShapeGroup">
+                            <g transform="translate(19.152884, 33.000000)">
+                                <rect id="Rectangle-38" stroke="#5B7186" stroke-width="5" fill="none" x="0" y="0" width="119.636763" height="257.794084"></rect>
+                                <rect id="Rectangle-39" stroke="#5B7186" stroke-width="5" fill="none" x="17.0909662" y="42.3771097" width="85.4548309" height="24.7199806"></rect>
+                                <rect id="Rectangle-39-Copy" stroke="#5B7186" stroke-width="5" fill="none" x="17.0909662" y="77.6913677" width="85.4548309" height="24.7199806"></rect>
+                                <rect id="Rectangle-39-Copy-2" stroke="#5B7186" stroke-width="5" fill="none" x="17.0909662" y="113.005626" width="85.4548309" height="24.7199806"></rect>
+                                <rect id="Rectangle-39-Copy-3" stroke="#5B7186" stroke-width="5" fill="none" x="17.0909662" y="148.319884" width="85.4548309" height="24.7199806"></rect>
+                                <ellipse id="Oval-11" stroke="none" fill="#E45D35" fill-rule="evenodd" cx="25.6364493" cy="19.4228419" rx="5.12728985" ry="5.29713871"></ellipse>
+                                <ellipse id="Oval-11-Copy" stroke="none" fill="#E45D35" fill-rule="evenodd" cx="49.5638019" cy="19.4228419" rx="5.12728985" ry="5.29713871"></ellipse>
+                                <ellipse id="Oval-11-Copy-3" stroke="none" fill="#5B7186" fill-rule="evenodd" cx="73.4911545" cy="19.4228419" rx="5.12728985" ry="5.29713871"></ellipse>
+                                <ellipse id="Oval-11-Copy-2" stroke="none" fill="#5B7186" fill-rule="evenodd" cx="97.4185072" cy="19.4228419" rx="5.12728985" ry="5.29713871"></ellipse>
+                            </g>
+                        </g>
+                        <g id="Group-Copy" mask="url(#mask-2)" sketch:type="MSShapeGroup">
+                            <g transform="translate(207.153511, 33.000000)">
+                                <rect id="Rectangle-38" stroke="#5B7186" stroke-width="5" fill="none" x="0" y="0" width="119.636763" height="257.794084"></rect>
+                                <rect id="Rectangle-39" stroke="#5B7186" stroke-width="5" fill="none" x="17.0909662" y="42.3771097" width="85.4548309" height="24.7199806"></rect>
+                                <rect id="Rectangle-39-Copy" stroke="#5B7186" stroke-width="5" fill="none" x="17.0909662" y="77.6913677" width="85.4548309" height="24.7199806"></rect>
+                                <rect id="Rectangle-39-Copy-2" stroke="#5B7186" stroke-width="5" fill="none" x="17.0909662" y="113.005626" width="85.4548309" height="24.7199806"></rect>
+                                <rect id="Rectangle-39-Copy-3" stroke="#5B7186" stroke-width="5" fill="none" x="17.0909662" y="148.319884" width="85.4548309" height="24.7199806"></rect>
+                                <ellipse id="Oval-11" stroke="none" fill="#5B7186" fill-rule="evenodd" cx="25.6364493" cy="19.4228419" rx="5.12728985" ry="5.29713871"></ellipse>
+                                <ellipse id="Oval-11-Copy" stroke="none" fill="#5B7186" fill-rule="evenodd" cx="49.5638019" cy="19.4228419" rx="5.12728985" ry="5.29713871"></ellipse>
+                                <ellipse id="Oval-11-Copy-3" stroke="none" fill="#5B7186" fill-rule="evenodd" cx="73.4911545" cy="19.4228419" rx="5.12728985" ry="5.29713871"></ellipse>
+                                <ellipse id="Oval-11-Copy-2" stroke="none" fill="#E45D35" fill-rule="evenodd" cx="97.4185072" cy="19.4228419" rx="5.12728985" ry="5.29713871"></ellipse>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path d="M61.6468848,382.505108 C-8.50820838,382.5051 -25.0500855,277.963344 47.7297898,269.339476 C47.5310712,242.536909 47.7297888,146.73672 154.905212,189.717897 C188.461593,98.2657478 269.174256,147.894618 276.689972,189.717898 C308.805275,183.598688 345.004691,198.447807 349.127361,234.583929 C400.331516,218.132234 435.083549,260.504006 423.540073,298.926022 C468.317015,330.876446 448.863351,373.830416 418.097555,382.505108 C272.893559,382.5051 125.471025,382.5051 61.6468848,382.505108 Z" id="Path-37" stroke="#E45D35" stroke-width="5" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

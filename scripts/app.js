@@ -1,6 +1,10 @@
-import $ from 'jquery'
-
 $(document).ready(() => {
+
+  // $.stellar({
+  //   // hideDistantElements: false,
+  //   horizontalScrolling: false
+  // })
+  skrollr.init()
 
   /**
    * for playing vimeo video
