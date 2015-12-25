@@ -1,3 +1,5 @@
 {
-  "name": "zab-www"
+  "name": "zab-www",
+  "root": "dist",
+  "port": 8081
 }

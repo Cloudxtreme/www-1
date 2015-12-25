@@ -1,0 +1,9 @@
+extends _partials/layout
+
+block content
+  include _partials/header
+
+  form(action="http://localhost:8080/auth", method="post")
+    input(type="text", placeholder="email", name="email")
+    input(type="password", placeholder="password", name="password")
+    button(type="submit") Sign In

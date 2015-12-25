@@ -1,4 +1,7 @@
 .home-page
+  .heading
+    padding 0 30px
+    
   .actions
     text-align center
     padding 70px 0 130px
@@ -9,7 +12,6 @@
 
   .video
     background black
-    // box-shadow 0 0 10px rgba(40, 51, 62, .3)
     border-radius 4px
     width 800px
     height 450px
@@ -37,9 +39,15 @@
   section:first-of-type
     margin-top 280px
     padding-top 170px
+    +below(res-mobile)
+      margin-top 120px
+      padding-top 80px
 
   .hosting-img
     max-width 350px
   .dev-toolkit
     img
       position absolute
+
+.signup-form
+  margin-top 100px

@@ -1,13 +1,18 @@
 .btn
-  padding 15px 30px
+  background none
+  height 45px
+  padding 0 30px
   color orange
   border 2px solid orange
   border-radius 4px
   font-weight 400
   font-size .9em
   display inline-block
+  box-sizing border-box
   &:hover
     opacity 0.6
+  +below(res-mobile)
+    width 100%
 
 .btn-sml
   font-weight 400

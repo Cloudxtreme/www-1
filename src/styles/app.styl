@@ -39,6 +39,8 @@ section
   padding 230px 0
   position relative
   text-align center
+  +below(res-mobile)
+    padding 150px 30px
 
   &.col-2
     display flex
@@ -48,6 +50,7 @@ section
       display inline-block
       text-align left
       overflow hidden
+      margin 20px 0
       &:first-child
         margin-left 150px
       &:last-child
@@ -58,6 +61,15 @@ section
           max-width 600px
       img
         width 100%
+    +below(res-mobile)
+      display block
+      .block
+        margin-left 0 !important
+        padding-right 0 !important
+        img
+          right 20px !important
+          left 20px !important
+          max-width 100%
   &.dark
     background url('/img/bg.png') no-repeat
     background-size cover
@@ -65,7 +77,6 @@ section
   &.white
     background white
     position relative
-    padding 150px 0
     p
       color bgDark
     &:before
