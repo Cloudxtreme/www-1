@@ -22,18 +22,26 @@
     cursor pointer
     overflow hidden
     box-shadow 0 2px 5px rgba(0, 0, 0, .3)
+    display flex
+    justify-content center
+    align-items center
     &:hover
       .play
         opacity 0.6
+    +below(res-mobile)
+      width 100%
+      margin 0
+      position relative
+      left 0
     .play
       background url('/img/play.svg')
       background-size 100%
       width 120px
       height 120px
-      position absolute
-      top 50%
-      left 50%
-      margin -60px 0 0 -60px
+      // position absolute
+      // top 50%
+      // left 50%
+      // margin -60px 0 0 -60px
     iframe
       display none
 

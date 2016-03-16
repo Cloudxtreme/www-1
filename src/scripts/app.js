@@ -18,7 +18,9 @@ $(document).ready(() => {
   //   horizontalScrolling: false
   // })
 
-  skrollr.init()
+  if( !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    skrollr.init()
+  }
 
   /**
    * for playing vimeo video
