@@ -1,8 +1,1 @@
-{
-  "name": "zab-www",
-  "root": "dist",
-  "port": 8081,
-  "redirects": [
-    {"src": "/login", "dest": "/signin"}
-  ]
-}
+{}
